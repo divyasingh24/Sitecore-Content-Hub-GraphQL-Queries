@@ -1,0 +1,9 @@
+query getJPGAssets {
+  allM_Asset(where: { fileName_contains: "jpg" }) {
+    total
+    results {
+      id
+      fileName
+    }
+  }
+}

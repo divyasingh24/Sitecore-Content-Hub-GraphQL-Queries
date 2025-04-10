@@ -1,0 +1,9 @@
+query getAllBlogs {
+  allM_Content_Blog {
+    results {
+      blog_Title
+      blog_Quote
+      blog_Body
+    }
+  }
+}

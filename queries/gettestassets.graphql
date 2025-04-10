@@ -1,0 +1,8 @@
+query gettestassets {
+  allM_Asset(where: { fileName_contains: "test" }) {
+    results {
+      id
+      fileName
+    }
+  }
+}

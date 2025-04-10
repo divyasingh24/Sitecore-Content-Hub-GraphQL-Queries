@@ -1,0 +1,9 @@
+query getRecentAssets {
+  allM_Asset(where: { createdOn_eq: "2024-04-01" }) {
+    results {
+      id
+      fileName
+      createdOn
+    }
+  }
+}

@@ -1,0 +1,16 @@
+query filterByTypeAndDate {
+  allM_Asset(
+    where: {
+      AND: [
+        { fileName_contains: "jpg" },
+        { createdOn_eq: "2024-04-01" }
+      ]
+    }
+  ) {
+    results {
+      id
+      fileName
+      createdOn
+    }
+  }
+}
