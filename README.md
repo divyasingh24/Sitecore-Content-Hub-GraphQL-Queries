@@ -17,14 +17,3 @@ To test or run these queries:
 {
   "X-GQL-Token": "your-api-key"
 }
-
-## 📁 Query List
-
-| File                      | Description                                                        |
-|---------------------------|--------------------------------------------------------------------|
-| `getAllBlogs.graphql`     | Retrieves blog title, quote, and body                              |
-| `getAllBlogsWithImage.graphql` | Retrieves blog title, quote, and linked image asset info         |
-| `getJPGAssets.graphql`    | Retrieves assets where filename contains `.jpg`                    |
-| `gettestassets.graphql`   | Retrieves assets with filenames containing the word `test`         |
-| `getRecentAssets.graphql` | Retrieves assets created on a specific date                        |
-| `filterByTypeAndDate.graphql` | Combines filters to get `.jpg` assets created on a specific date |
