@@ -29,6 +29,7 @@ To test or run these queries:
 | `gettestassets.graphql`       | Retrieves assets with filenames containing the word `test`         |
 | `getRecentAssets.graphql`     | Retrieves assets created on a specific date                        |
 | `filterByTypeAndDate.graphql` | Combines filters to get `.jpg` assets created on a specific date   |
+| `getMarketingCampaigns.graphql` | Retrieves all entities created using the custom definition `MarketingCampaign` |
 
 
 ## 🧠 Content Model Assumptions
