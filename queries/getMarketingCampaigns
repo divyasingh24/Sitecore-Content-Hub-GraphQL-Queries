@@ -1,0 +1,19 @@
+query getMarketingCampaigns {
+  allMarketingCampaign {
+    total
+    results {
+      id
+      campaignName
+      campaignStatusActive
+      startDate
+      endDate
+      location
+      marketingAssets {
+        results {
+          id
+          fileName
+        }
+      }
+    }
+  }
+}
